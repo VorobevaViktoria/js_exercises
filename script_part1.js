@@ -1,6 +1,6 @@
 "use strict";
 
-const QUESTION_MOVIE = 'Сколько фильмов вы уже посмотрели?';
+const QUESTION_MOVIE = 'Один из последних просмотренных фильмов?';
 const QUESTION_RATING = 'На сколько оцените его?';
 
 const numberofFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
@@ -22,3 +22,5 @@ personalMovieDB.movies = {
     [movie1]: rating1,
     [movie2]: rating2
 };
+
+console.log(personalMovieDB);
