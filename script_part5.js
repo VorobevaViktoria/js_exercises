@@ -27,6 +27,9 @@ movieDB.movies.sort();
 interactiveList.innerHTML = '';
 
 movieDB.movies.forEach((movie, i) => {
-    interactiveList.innerHTML += `<li class="promo__interactive-item">${i+1}. ${movie}
-            <div class="delete"></div></li>`;
+    interactiveList.innerHTML += `
+        <li class="promo__interactive-item">${i+1}. ${movie}
+            <div class="delete"></div>
+        </li>
+        `;
 });
